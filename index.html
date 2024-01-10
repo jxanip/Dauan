@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ANNIVERSARY DAUAN</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- simply coutdown -->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+    <!-- icon boostrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <section
+      id="hero"
+      class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"
+    >
+      <main>
+        <h4>
+          Kepada Bapak/Ibu, Saudara/i, Teman-teman, dan siapa pun yang ingin
+          datang, silahkan
+        </h4>
+        <h1>Davina & Juan</h1>
+        <p>Akan melangsungkan HAPPY ANNIVERSARY YANG KE-4 TAHUN dalam:</p>
+        <div class="simply-countdown"></div>
+        <a href="#home" class="btn btn-lg mt-4" onclick="enableScroll()"
+          >Buka undangan</a
+        >
+      </main>
+    </section>
+
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">DAUAN</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">DAUAN</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#story">Story</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#rsvp">Ucapkan happy aniv </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>UNDANGAN ANNIVERSARY</h2>
+            <h3>
+              Yang akan di selenggarakan pada 15 Januari 2024 di Bandung, Jawa
+              Barat.
+            </h3>
+            <p>
+              Oleh karena itu,dengan segala hormat,kami mengundang
+              Bapak/ibu,saudara/i untuk berkenan hadir pada acara ANNIVERSARY
+              hubungan kami yang ke 4 tahun.
+            </p>
+          </div>
+        </div>
+
+        <div class="row couple">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-8 text-end">
+                <h3>Juan ikbal pratama</h3>
+                <p>
+                  Juan Ikbal Pratama lahir di Bandung,Jawa Barat, sebagai anak
+                  pertama dari tiga bersaudara.
+                </p>
+                <p>
+                  Putra dari Bpk.Jujun <br />
+                  Dan <br />
+                  Ibu.Siti Komala
+                </p>
+              </div>
+              <div class="col-4">
+                <img
+                  src="img/jj.png"
+                  alt="Juan ikbal pratama"
+                  class="img-responsive rounded-circle"
+                />
+              </div>
+            </div>
+          </div>
+          <span class="heart"><i class="bi bi-heart-fill"></i></span>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-4">
+                <img
+                  src="img/vn.png"
+                  alt="Davina adikta nuraini"
+                  class="img-responsive rounded-circle"
+                />
+              </div>
+              <div class="col-8">
+                <h3>Davina adikta nuraini</h3>
+                <p>
+                  Davina Adikta Nuraini, seorang perempuan yang penuh dedikasi
+                  dan kesuksesan, lahir di kota Bandung sebagai anak pertama
+                  dari dua bersaudara.
+                </p>
+                <p>
+                  Putra dari Bpk.Dian Sardiana <br />
+                  Dan <br />
+                  Ibu.Nita Yusnita
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">
+              Alamat:Gunung Puntang,stasiun Radio malabar <br />VJM4+G93, Jl.
+              Gn. Puntang, Mekarjaya, Pasirmulya, Kec. Banjaran, Kabupaten
+              Bandung
+            </p>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.0842754519877!2d107.6059358!3d-7.1162322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6895eff36e110b%3A0xd8ef34152d051adf!2sBERG%20Puntang!5e0!3m2!1sid!2sid!4v1704505428181!5m2!1sid!2sid"
+              width="100%"
+              height="250"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+
+            <a
+              href="https://maps.app.goo.gl/k4rFFRL8H6nzkcRr8"
+              target="_blank"
+              class="btn btn-light btn-sm my-3"
+              >Klik untuk membuka PETA</a
+            >
+            <p class="description">
+              di harapkan untuk tidak salah alamat dan tanggal,manakala tiba di
+              tujuan namun tidak ada tanda tanda sedang di langsungkan acara
+              ANNIVERSARY, boleh jadi anda salah jadwal,atau salah tempat.
+            </p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-ligt mb-5">
+              <div class="card-header">Pembukaan acara</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"> </i>
+                    <span>08.00 s/d 10.00 WIB</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar-event"></i>
+                    <span>Senin, 15 Januari 2024</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Pembukaan acara akan di lakukan pada saat jam menunjukan pukul
+                08.00 WIB dan akan di buka dengan acara pembuka daerah maka dari
+                itu di mohon kepada para tamu undangan di persilahkan mengambil
+                momen yang ada
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-ligt">
+              <div class="card-header">Acara inti</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"> </i>
+                    <span>10.00 s/d selesai</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar-event"></i>
+                    <span>Senin, 15 Januari 2024</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara berlangsung,di mohon untuk hadirin yang terhormat
+                para tamu undangan agar di persiapkan dirinya terlebih dahulu
+                supaya kondusif pada saat acara di mulai agar acara berlangsung
+                dengan sukses dan lancar!
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2>Ini boongan cuma mimpi yaa,hehe</h2>
+      </div>
+    </section>
+
+    <section id="story" class="story">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Bagaimana Cinta Kami Bersemi</span>
+            <h2>Cerita Kami</h2>
+            <p>
+              Bagi kalian yang kepo dengan perjalanan kami dari awal kenal
+              sampai sekarang bisa bertahan sejauh ini,akan kami bahas secara
+              singkat,padat,dan jelas!
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li>
+                <div
+                  class="timeline-img"
+                  style="background-image: url(img/wa.jpg)"
+                ></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Pertama Kenal</h3>
+                    <span>di 2019 akhir</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Pada saat itu kami sekolah di landa covid-19,karena itu
+                      sekolah kami pun ikut melaksanakan tata tertib yang telah
+                      di sediakan pemerintah dan harus di patuhi yaitu mematuhi
+                      protokol kesehatan dengan cara sekolah daring/gantian
+                      tatap muka di jadwal hanya sebagian,karena di daring kan
+                      guru pun terpaksa membuat grup whastapp untuk media
+                      pembelajaran kami semua per angkatan,di salah satu media
+                      grup bisa kita sebut grup pelajaran fiqih di situ awal
+                      mula kkta kenal karena dengan grup tersebut bisa
+                      mempertemukan kami lewat whastapp dengan cara juan di chat
+                      duluan oleh davina saat itu,karena davina mau punya banyak
+                      teman ia melakukan chat dengan orang-orang pilihannya di
+                      grup,sampailah suatu ketika ia chat juan duluan
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div
+                  class="timeline-img"
+                  style="background-image: url(img/ktmu.jpg)"
+                ></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Pertama Bertemu</h3>
+                    <span>di 2020</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      saat di landa covid-19 semua sekolah di daring kan,tapi
+                      beda dengan sekolah kami ini tetap melakukan aktivitas
+                      belajar tatap muka namun di batasi,pada suatu hari saat
+                      jadwal kami sekolah kebetulan jadwal kbm kami bareng,pada
+                      saat menunggu kelas lain bubar kelas kami berdua kebetulan
+                      masuk di jam yang sama di luar gedung kelas kami bertemu
+                      berdua dengan secara tidak sengaja karena kita lagi saling
+                      menunggu kelas kita masuk,kita ketemu di lorong sekolah.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="timeline-img"
+                  style="background-image: url(img/sr.png)"
+                ></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Mulai serius</h3>
+                    <span>15 Januari 2020 & 22 Desember 2021</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      1 Seiring berjalannya waktu,kami berdua sering
+                      berkomunikasi lewat whastapp tanya menanya kabar
+                      pribadi,keluarga dsb,sampai lupa arah dimana kita itu
+                      teman,karena tanpa di sadari kami berdua saling memberikan
+                      perhatian satu sama lain saling kangen,merasa kehilangan
+                      ketika tidak ada kabar diantara kita sehingga akhirnya
+                      tiba dimana tanggal 15 januari DAVINA tidak kuasa
+                      membendung rasa keinginan bersama dengan Juan,di situlah
+                      davina dengan lantang nya dengan pd nya dia walaupun
+                      perempuan tidak menutup rasa atau apa dia menyatakan
+                      perasaan nya kepada Juan di tanggal itu dan kita resmi
+                      Berstatus sebagai pacar di januari 2020
+                    </p>
+                    <p>
+                      merasa hubungan ini serius dan sangat layak untuk di
+                      perjuangkan,walau banyak hambatan dan rintangan tidak
+                      menutup rasa keyakinan juan untuk menyatakan perasaan yang
+                      sebenar nya sebagai laki-laki sebagaimana mestimya
+                      dimanapun laki-laki yang menyatakan perasaan terlebih
+                      dahulu,juan pun kembali memperkuat/menyatakan perasaan nya
+                      terhadap davina pada 22 Desember 2021 sebagai bukti juga
+                      bahwa kami emang serius dan kami mempunyai 2 tanggal
+                      jadian dimana tanggal yang pertama di lakukan oleh wanita
+                      pada saat online/covid dan tanggal kedua adalah tanggal
+                      jadian yang lebih sakral karena di lakukan secara langsung
+                      pada saat kami bertemu,namun kami lebih
+                      memilih/mempriotitaskan tanggal 15 januari 2020 karena itu
+                      yang cocok dan nyaman bagi kita.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div
+                  class="timeline-img"
+                  style="background-image: url(img/j.jpg)"
+                ></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Bertahan sejauh ini</h3>
+                    <span>2020-2024</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      kunci kita bertahan sejauh ini adalah balik lagi ke diri
+                      kita sendiri bagaimana niat kita masing-masing ngejalanin
+                      hubungan ini buat apa?,mau di bawa kemana hubungan kita?
+                      DAN 1 lagi turunin ego masing-masing,saling support,saling
+                      mengerti,saling memahami,menerima apa adanya,JAUHI PACARAN
+                      YANG BERLEBIHAN,MEMILIKI HUBUNGAN SEWAJAR NYA. TAU
+                      BATASAN! saran.. kalo mau langgeng intinya SABAR DI KEDUA
+                      PASANGAN SECARA GANTIAN SABAR NYA.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Memory Kisah Kami</span>
+            <h2>Gallery Foto</h2>
+            <p>
+              Sedikit Kisah memories kami dari kelas 9 sampai sekarang,tidak
+              dari kelas 8 karena kami pertama ketemu dan awal foto nya dari
+              kelas 9
+            </p>
+          </div>
+        </div>
+        <div
+          class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center"
+        >
+          <div class="col mt-3">
+            <a
+              href="img/gallery/1.png"
+              data-toggle="lightbox"
+              data-caption="Juan-vina kelas 9"
+              data-gallery="mygallery"
+            >
+              <img
+                src="img/gallery/thumbnile/a.png"
+                alt="Juan-vina  kelas 9"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a
+              href="img/gallery/2.png"
+              data-toggle="lightbox"
+              data-caption="Juan-vina  kelas 9"
+              data-gallery="mygallery"
+            >
+              <img
+                src="img/gallery/thumbnile/b.png"
+                alt="Juan-vina  kelas 9"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a
+              href="img/gallery/3.png"
+              data-toggle="lightbox"
+              data-caption="Juan-vina  kelas 9"
+              data-gallery="mygallery"
+            >
+              <img
+                src="img/gallery/thumbnile/c.png"
+                alt="Juan-vina  kelas 9"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a
+              href="img/gallery/4.png"
+              data-toggle="lightbox"
+              data-caption="Juan-vina  kelas 10"
+              data-gallery="mygallery"
+            >
+              <img
+                src="img/gallery/thumbnile/d.png"
+                alt="Juan-vina kelas 10"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a
+              href="img/gallery/5.png"
+              data-toggle="lightbox"
+              data-caption="Juan-vina kelas 10"
+              data-gallery="mygallery"
+            >
+              <img
+                src="img/gallery/thumbnile/e.png"
+                alt="Juan-vina kelas 10"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a
+              href="img/gallery/6.png"
+              data-toggle="lightbox"
+              data-caption="Juan-vina kelas 10"
+              data-gallery="mygallery"
+            >
+              <img
+                src="img/gallery/thumbnile/f.png"
+                alt="Juan-vina kelas 10"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a
+              href="img/gallery/7.png"
+              data-toggle="lightbox"
+              data-caption="Juan-vina kelas 11"
+              data-gallery="mygallery"
+            >
+              <img
+                src="img/gallery/thumbnile/g.png"
+                alt="Juan-vina kelas 11"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a
+              href="img/gallery/8.png"
+              data-toggle="lightbox"
+              data-caption="Juan-vina kelas 11"
+              data-gallery="mygallery"
+            >
+              <img
+                src="img/gallery/thumbnile/h.jpg"
+                alt="Juan-vina kelas 11"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a
+              href="img/gallery/9.png"
+              data-toggle="lightbox"
+              data-caption="Juan-vina kelas 11"
+              data-gallery="mygallery"
+            >
+              <img
+                src="img/gallery/thumbnile/i.png"
+                alt="Juan-vina kelas 11"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="rsvp" class="rsvp">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Ucapan Selamat Aniv Buat Kami</h2>
+            <p>
+              Karena kalian terlanjur liat web kami,di mohon Berikan
+              Pesan/Komentar dari Kalian untuk kami,Jika kalian berkenan mau
+              berpesan/memberikan amanat masukan/komentar untuk kami,silahkan
+              untuk isi sesuka kalian,dengan senang hati kami akan menerima nya
+              dan bakal di jadikan motivasi bagi kami
+            </p>
+          </div>
+        </div>
+
+        <form
+          class="row row-cols-md-auto g-3 align-items-center justify-content-center"
+          method="POST"
+          action="https://script.google.com/macros/s/AKfycbz-DkQzeo9O5G-0HYtiL92aEiGer4E_khQ-k2C5hPJEeGTBbH0qKP3_lTFVeg8axOrvmQ/exec"
+          id="my-form"
+        >
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="nama" class="formlabel">Nama</label>
+              <input type="text" class="form-control" id="nama" name="nama" />
+            </div>
+            <div class="mb-3">
+              <label for="" class="formlabel"
+                >ucapkan Selamat anniv dan perkataan yang lain di kolom bawah
+                untuk kami</label
+              >
+              <textarea
+                class="form-control"
+                id="nama"
+                rows="3"
+                name="pesan"
+              ></textarea>
+            </div>
+          </div>
+          <div class="col-12" style="margin-top: 35px">
+            <button class="btn btn-primary">KIRIM</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <small class="block"
+              >&copy; 2024 DAUAN ANNIVERSARY. All Rigts Reserved.</small
+            >
+            <small class="block"
+              >Design by
+              <a href="https://www.instagram.com/_xjnip?igsh=cXplbnd4NWIxZTZ5"
+                >@_xjnip</a
+              ></small
+            >
+
+            <ul class="mt-3">
+              <li>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-whastaap"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-tiktok"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="audio-container">
+      <audio id="song" autoplay loop>
+        <source src="audio/msk.mp3" type="audio/mp3" />
+      </audio>
+      <div class="audio-icon-wrapper" style="display: none">
+        <i class="bi bi-pause-circle-fill"></i>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+    <script>
+      simplyCountdown(".simply-countdown", {
+        year: 2024, // required
+        month: 01, // required
+        day: 15, // required
+        hours: 00, // Default is 0 [0-23] integer
+        minutes: 0, // Default is 0 [0-59] integer
+        words: {
+          //words displayed into the countdown
+          days: { singular: "hari", plural: "hari" },
+          hours: { singular: "jam", plural: "jam" },
+          minutes: { singular: "menit", plural: "menit" },
+          seconds: { singular: "detik", plural: "detik" },
+        },
+      });
+    </script>
+
+    <script>
+      const hamburger = document.querySelector(".navbar-toggler");
+      const stickytop = document.querySelector(".sticky-top");
+
+      hamburger.addEventListener("click", function () {
+        stickytop.style.overflow = "visible";
+      });
+
+      const offcanvas = document.querySelector(".offcanvas");
+      offcanvas.addEventListener("hidden.bs.offcanvas", function () {
+        stickytop.style.overflow = "hidden";
+      });
+    </script>
+    <script>
+      const rootElement = document.querySelector(":root");
+      const audioiconWrapper = document.querySelector(".audio-icon-wrapper");
+      const audioicon = document.querySelector(".audio-icon-wrapper i");
+      const song = document.querySelector("#song");
+      let isPlaying = false;
+
+      // function disableScroll() {
+      //   var scrollTop =
+      //     window.pageYOffset || document.documentElement.scrollTop;
+      //   var scrollLeft =
+      //     window.pageXOffset || document.documentElement.scrollLeft;
+
+      //   window.onscroll = function () {
+      //     window.scrollTo(scrollLeft, scrollTop);
+      //   };
+
+      //   document.documentElement.style.scrollBehavior = "auto";
+      // }
+
+      function enableScroll() {
+        window.onscroll = function () {};
+        rootElement.style.scrollBehavior = "smooth";
+        //localStorage.setItem("opened", "true");
+        playAudio();
+      }
+
+      function playAudio() {
+        song.volume = 0.7;
+        audioiconWrapper.style.display = "flex";
+        song.play();
+        isPlaying = true;
+      }
+
+      audioiconWrapper.onclick = function () {
+        if (isPlaying) {
+          song.pause();
+          audioicon.classList.remove("bi-pause-circle-fill");
+          audioicon.classList.add("bi-play-circle-fill");
+        } else {
+          song.play();
+          audioicon.classList.add("bi-pause-circle-fill");
+          audioicon.classList.remove("bi-play-circle-fill");
+        }
+
+        isPlaying = !isPlaying;
+      };
+
+      //if (!localStorage.getItem("opened")) {
+      // disableScroll();
+      //}
+      disableScroll();
+    </script>
+
+    <script>
+      window.addEventListener("load", function () {
+        const form = document.getElementById("my-form");
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+          const data = new FormData(form);
+          const action = e.target.action;
+          fetch(action, {
+            method: "POST",
+            body: data,
+          }).then(() => {
+            alert(
+              "Kirim anda sukses,dan bisa di lihat oleh yang punya web ini"
+            );
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
