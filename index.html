@@ -683,18 +683,18 @@ window.addEventListener("resize", handlePhoneFontSize);
       const song = document.querySelector("#song");
       let isPlaying = false;
 
-      // function disableScroll() {
-      //   var scrollTop =
-      //     window.pageYOffset || document.documentElement.scrollTop;
-      //   var scrollLeft =
-      //     window.pageXOffset || document.documentElement.scrollLeft;
+      function disableScroll() {
+        var scrollTop =
+          window.pageYOffset || document.documentElement.scrollTop;
+        var scrollLeft =
+          window.pageXOffset || document.documentElement.scrollLeft;
 
-      //   window.onscroll = function () {
-      //     window.scrollTo(scrollLeft, scrollTop);
-      //   };
+        window.onscroll = function () {
+          window.scrollTo(scrollLeft, scrollTop);
+        };
 
-      //   document.documentElement.style.scrollBehavior = "auto";
-      // }
+        document.documentElement.style.scrollBehavior = "auto";
+      }
 
       function enableScroll() {
         window.onscroll = function () {};
@@ -724,9 +724,9 @@ window.addEventListener("resize", handlePhoneFontSize);
         isPlaying = !isPlaying;
       };
 
-      //if (!localStorage.getItem("opened")) {
-      // disableScroll();
-      //}
+      if (!localStorage.getItem("opened")) {
+      disableScroll();
+      }
       disableScroll();
     </script>
 
